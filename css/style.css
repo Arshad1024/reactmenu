@@ -1,0 +1,79 @@
+
+div > ul.hidden
+{
+    max-width:400px;
+    display: block;
+}
+
+ul{
+    display: block;
+    margin:0px;
+    background-color: lightgray;
+    padding:0px;
+    list-style-type: none;
+}
+
+li{
+
+    padding-top:3px;
+    padding-bottom:3px;
+    color: white;
+    background-color: darkgray;
+    margin-bottom:2px;
+
+}
+
+
+ul li ul li{
+
+    padding-left:10px;
+
+}
+
+ul li .head
+{
+    background-color: black;
+    padding-left:5px;
+    padding-right:5px;
+    text-transform: capitalize;
+}
+
+.head:hover, .head.active
+{
+    color: orange;
+}
+ul li ul li .head
+{
+    background-color: #333;
+    padding-left:10px;
+
+
+}
+
+
+li div.head
+{
+
+    color:white;
+    padding-top:7px;
+    padding-bottom:7px;
+
+}
+li div.head a
+{
+    display: block;
+    float: left;
+}
+li div.head strong
+{
+    display: block;
+    float: right;
+}
+ul.visible
+{
+    display: block;
+}
+ul.hidden
+{
+    display:none;
+}
